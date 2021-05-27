@@ -6,7 +6,7 @@ from models import db, User
 # be sure to connect Class Pet from models.py
 
 # Use test database and don't clutter tests with SQL
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql:///blogly_db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql:///blogly_db_test"
 app.config["SQLALCHEMY_ECHO"] = False
 
 # Make Flask errors be real errors, rather than HTML pages with error info
